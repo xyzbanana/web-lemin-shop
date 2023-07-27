@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<!-- =================================================================================== -->
+<!--        Home Page   -->
+<!-- =================================================================================== -->
+
+<head>
+    <script src="https://kit.fontawesome.com/bcb2c05d90.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEMIN HAIR Website</title>
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- <link rel="stylesheet" href="css/all.min.css" /> -->
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+    <!--  -->
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="logo.png" alt="" class="logo"></a>
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html" class="active">Trang Chủ</a></li>
+                <li><a href="shop.html">Sản Phẩm</a></li>
+                <li><a href="404.html">Hình Ảnh</a></li>
+                <li><a href="404.html">Kiến Thức</a></li>
+                <li><a href="about.html">Giới Thiệu</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fa fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </nav>
+        <div id="mobile">
+            
+            <i id="bar" class="fas fa-bars"></i>
+
+        </div>
+    </header>
+
+   <div class="section full-height over-hide">	
+		<div class="switch-wrap">
+			<h1>LEMIN</h1>
+			<div class="container">
+	   <span id="type-text"></span>
+				<span class="blinking-cursor">_</span>
+			  </div>
+		</div>
+	</div>	
+    <!-- ===================== -->
+    <!-----       Footer -------->
+    <!-- ===================== -->
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><Strong>Adress:</Strong> TP, Thanh Hoá </p>
+            <p><strong>Phone:</strong> <a href="tel:+84822324456">082 2324 456</a></p>
+            <p><Strong>Hours:</Strong> 07:00am -21:00pm </p>
+            <div class="icon follow">
+                <h4>Follow US</h4>
+                <i class="fab fa-facebook-f"></i>
+                
+                <i class="fab fa-instagram"></i>
+                
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>&copy; 2023, Web Development Project - TheCuong </p>
+        </div>
+    </footer>
+    <!-- ============================================================================================================ -->
+   
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+     <script>
+  document.addEventListener("DOMContentLoaded", function() {
+    var options = {
+      strings: ['> Hello, I am TheCuong!', 'am hair stylist', 'am image editor', 'am beautiful hair photo', 'am sell hair products', '...'],
+      typeSpeed: 130,
+      backSpeed: 60,
+      loop: true
+    };
+    var typed = new Typed("#type-text", options);
+  });
+ </script>
+</body>
+
+</html>
